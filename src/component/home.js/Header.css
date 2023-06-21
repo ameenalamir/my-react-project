@@ -1,0 +1,67 @@
+header {
+    background: url('./../../img/f.png') center  no-repeat;
+    background-size: cover;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    height: 650px;
+    text-align: left;
+    padding: 25px 0;
+    margin-top: 0px;
+}
+
+
+header .row {
+    margin: 60px 0;
+}
+
+header h2 {
+    color: #7c0f28;
+    font-size: 40px;
+    line-height: 60px;
+    font-weight: bold;
+    width: 80%;
+}
+
+
+header p {
+    color: #333;
+    margin: 15px 0;
+}
+
+
+header button {
+    width: 140px;
+    height: 40px;
+    background-color: #7c0f28;
+    border: 1px solid #7c0f28;
+    box-sizing: border-box;
+    color:  #fff;
+    text-align: center;
+    margin: 20px 10px 20px 0;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+header button:last-of-type{
+    background-color: #fff;
+    color: #000;
+}
+
+
+header button:hover {
+    transition: .2s ease;
+}
+
+
+header button:last-of-type:hover {
+    background: #7c0f28;
+    color: #fff;
+}
+
+
+header button:first-of-type:hover {
+    background: #fff;
+    color: #7c0f28;
+}
